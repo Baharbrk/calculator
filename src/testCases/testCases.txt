@@ -1,0 +1,120 @@
+Test cases:
+
+1. Addition:
+a) two positive operands
+Inputs:
+Operand1 = 4
+Operand2 = 2
+Expected result = 6
+
+b) two negative operands
+Inputs:
+Operand1 = -4
+Operand2 = -2
+Expected result = -6
+
+c) one positive operand and one negative one when positive operand is bigger than the negative one
+Inputs:
+Operand1 = 4
+Operand2 = -2
+Expected result = 2
+
+d) one positive operand and one negative one when negative operand is bigger than the positive one
+Inputs:
+Operand1 = -4
+Operand2 = 2
+Expected result = -2
+
+e) one number with 0
+Inputs:
+Operand1 = 4
+Operand2 = 0
+Expected result = 4
+
+2. Subtraction:
+a) two positive operands when first operand is bigger than the second one
+Inputs:
+Operand1 = 4
+Operand2 = 2
+Expected result = 2
+
+b) two positive operands when first operand is smaller than the second one
+Inputs:
+Operand1 = 2
+Operand2 = 4
+Expected result = -2
+
+c) two negative numbers
+Inputs:
+Operand1 = -4
+Operand2 = -2
+Expected result = 2
+
+d) One positive operand and one negative one
+Inputs:
+Operand1 = 2
+Operand2 = -4
+Expected result = 6
+
+e) one number with 0
+Inputs:
+Operand1 = 4
+Operand2 = 0
+Expected result = 4
+
+3. Multiplication:
+a) two positive operands
+Inputs:
+Operand1 = 4
+Operand2 = 2
+Expected result = 8
+
+b) two negative numbers
+Inputs:
+Operand1 = -4
+Operand2 = -2
+Expected result = 8
+
+c) one positive operand and one negative one
+Inputs:
+Operand1 = 4
+Operand2 = -2
+Expected result = -8
+
+d) one number with 0
+Inputs:
+Operand1 = 4
+Operand2 = 0
+Expected result = 4
+
+
+4. Division:
+a) two positive operands
+Inputs:
+Operand1 = 4
+Operand2 = 2
+Expected result = 2
+
+b) two negative operand
+Inputs:
+Operand1 = -4
+Operand2 = -2
+Expected result = 2
+
+c) one positive operand and one negative operand
+Inputs:
+Operand1 = -4
+Operand2 = 2
+Expected result = -2
+
+d) 0 as first operand
+Inputs:
+Operand1 = 0
+Operand2 = 2
+Expected result = 0
+
+d) 0 as second operand
+Inputs:
+Operand1 = 2
+Operand2 = 0
+Expected result = Error
